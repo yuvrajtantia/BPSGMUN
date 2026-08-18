@@ -8,8 +8,8 @@
   const COMMITTEES = window.COMMITTEES;
 
   const SECRETARIAT = [
-    { rank: 'I', name: 'Mr. Yuvraj Tantia', post: 'President', phone: '+91 79769 42322' },
-    { rank: 'II', name: 'Mr. Akshit Aggarwal', post: 'Secretary General', phone: '+91 83026 88013' },
+    { rank: 'I', name: 'Mr. Akshit Aggarwal', post: 'Secretary General', phone: '+91 83026 88013' },
+    { rank: 'II', name: 'Mr. Yuvraj Tantia', post: 'President', phone: '+91 79769 42322' },
     { rank: 'III', name: 'Ms. Dhanya Saharan', post: 'Director General', phone: '+91 78788 89051' },
     { rank: 'IV', name: 'Mr. Vivaan Bihani', post: 'Chargé d’affaires', phone: '+91 85020 12525' }
   ];
