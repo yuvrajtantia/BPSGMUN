@@ -12,7 +12,7 @@
   const GENERAL_DOCS = [
     { id: 'matrix', tag: 'General &middot; Live', title: 'Country / Portfolio Matrix', desc: 'Live allotment matrix — country or portfolio assigned to each delegate, by committee.', type: 'external', url: MATRIX_URL, cta: 'View Live Matrix', liveLabel: 'Live' },
     { id: 'brochure', tag: 'General', title: 'Conference Brochure', desc: 'Overview of BPSGMUN III — theme, structure and committees.', file: 'assets/docs/brochure.pdf' },
-    { id: 'itinerary', tag: 'General', title: 'Itinerary &amp; Schedule', desc: 'Day-wise schedule across 27&ndash;29 October 2026.', file: 'assets/docs/itinerary.pdf' },
+    { id: 'itinerary', tag: 'General', title: 'Itinerary &amp; Schedule', desc: 'Day-wise schedule across 30 November&ndash;2 December 2026.', file: 'assets/docs/itinerary.pdf' },
     { id: 'rules-of-procedure', tag: 'General', title: 'Rules of Procedure', desc: 'Governing rules for debate, motions and voting.', file: 'assets/docs/rules-of-procedure.pdf' },
     { id: 'position-paper-format', tag: 'General', title: 'Position Paper Format', desc: 'Formatting guide for submitted position papers.', file: 'assets/docs/position-paper-format.pdf' },
     { id: 'delegate-handbook', tag: 'General', title: 'Delegate Handbook', desc: 'Conduct, dress code and general delegate guidance.', file: 'assets/docs/delegate-handbook.pdf' }

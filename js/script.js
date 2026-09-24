@@ -200,7 +200,7 @@
   /* ---------- countdown to opening ceremony ---------- */
   /* Adjust the exact opening time here once confirmed — currently 9:00 AM IST on day one. */
   window.BPS.initCountdown({
-    targetDate: new Date('2026-10-27T09:00:00+05:30'),
+    targetDate: new Date('2026-11-30T09:00:00+05:30'),
     containerId: 'countdown', dayId: 'cdDays', hourId: 'cdHours', minId: 'cdMinutes', secId: 'cdSeconds',
     liveText: 'The Chronicle Has Begun'
   });
