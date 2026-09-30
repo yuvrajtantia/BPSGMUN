@@ -471,18 +471,6 @@ p{ margin:0 0 1em; }
 .faq-answer a:hover{ color:var(--gold); }
 
 /* =========================================================
-   ROP BRIEFING — AGENDA
-   ========================================================= */
-.agenda-grid{ display:grid; grid-template-columns:1fr 1fr; gap:26px; margin-bottom:40px; }
-.agenda-day{ border:1px solid var(--beige-400); background:var(--cream-100); padding:30px 32px; }
-.agenda-day-label{ font-family:var(--font-mono); font-size:11.5px; letter-spacing:1.5px; text-transform:uppercase; color:var(--wine-600); margin:0 0 18px; }
-.agenda-list{ list-style:none; margin:0; padding:0; display:flex; flex-direction:column; gap:13px; }
-.agenda-list li{ position:relative; padding-left:20px; font-size:16.5px; color:var(--ink); line-height:1.5; }
-.agenda-list li::before{ content:'\25C6'; position:absolute; left:0; top:1px; color:var(--gold); font-size:10px; }
-.agenda-actions{ display:flex; align-items:center; justify-content:space-between; gap:24px; flex-wrap:wrap; }
-.agenda-note{ font-style:italic; color:var(--ink-soft); font-size:16px; margin:0; max-width:520px; }
-
-/* =========================================================
    RESPONSIVE
    ========================================================= */
 @media (max-width:900px){
@@ -495,8 +483,6 @@ p{ margin:0 0 1em; }
   .hero-compass{ display:none; }
   .section{ padding:90px 0; }
   .hero-stamp{ right:50%; transform:translateX(50%); bottom:4%; opacity:.35; }
-  .agenda-grid{ grid-template-columns:1fr; }
-  .agenda-actions{ flex-direction:column; align-items:flex-start; }
 }
 @media (max-width:640px){
   .hero-stamp{ display:none; }
