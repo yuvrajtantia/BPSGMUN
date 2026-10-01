@@ -26,7 +26,7 @@ window.COMMITTEES = [
   {
     code: '05/6', slug: 'ipl', acronym: 'IPL', category: 'Themed • Governance',
     name: 'IPL Governing Council',
-    agenda: 'Mega Auction — Complete Squad Rebuild, Franchise Strategy, and Governance Reform.'
+    agenda: 'Conducting the IPL Mega Auction.'
   },
   {
     code: '06/6', slug: 'ip', acronym: 'IP', category: 'Press Corps',
