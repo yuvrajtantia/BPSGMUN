@@ -6,16 +6,25 @@ window.BPS = (function () {
   'use strict';
 
   /* ---------- registration link ----------
-     Paste the Google Form URL here once it's ready. Every element
-     with [data-register-link] (hero button + nav "Register" CTAs)
-     will point to it. Left empty, they fall back to their existing
-     href (the Correspondence section). */
-  const REGISTER_URL = 'https://forms.gle/TKGV1wE5Wuso7GZW7';
+     Registration is currently closed — every [data-register-link]
+     element (hero button + nav "Register" CTAs) is rendered disabled
+     in the HTML with "Registration Opening Soon" / "Coming Soon" text.
+     To reopen: set REGISTER_URL below (the form is
+     https://forms.gle/TKGV1wE5Wuso7GZW7) and this re-enables every
+     one of them, restoring the original label from data-register-label. */
+  const REGISTER_URL = '';
   if (REGISTER_URL) {
     document.querySelectorAll('[data-register-link]').forEach(el => {
       el.href = REGISTER_URL;
       el.target = '_blank';
       el.rel = 'noopener noreferrer';
+      el.classList.remove('is-disabled');
+      el.removeAttribute('aria-disabled');
+      const label = el.dataset.registerLabel;
+      if (label) {
+        const span = el.querySelector('span');
+        if (span) span.textContent = label; else el.textContent = label;
+      }
     });
   }
 
